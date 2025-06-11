@@ -229,6 +229,7 @@ def tool(fn: Callable):
 
     return wrapper()
 
+
 @dataclass
 class TagContentResult:
     """
